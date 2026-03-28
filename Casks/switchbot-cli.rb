@@ -3,7 +3,7 @@ cask "switchbot-cli" do
   name "switchbot-cli"
   desc "CLI for SwitchBot devices"
   homepage "https://github.com/HatsuneMiku3939/switchbot-cli"
-  version "0.9.0"
+  version "0.9.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "switchbot-cli" do
     on_intel do
       url "https://github.com/HatsuneMiku3939/switchbot-cli/releases/download/v#{version}/switchbot-cli_#{version}_Darwin_x86_64.zip",
         verified: "github.com/HatsuneMiku3939/switchbot-cli/"
-      sha256 "ff6efa7ede165a72bedef36a2f877b2dc46deae2e6800419f0a7487e1004749d"
+      sha256 "74e8bc744544f24cad87919016ac5e2bf5591350f9281a2fff7835104e245024"
     end
     on_arm do
       url "https://github.com/HatsuneMiku3939/switchbot-cli/releases/download/v#{version}/switchbot-cli_#{version}_Darwin_arm64.zip",
         verified: "github.com/HatsuneMiku3939/switchbot-cli/"
-      sha256 "424b757e5d443630601cf57b90aec3600416928eb6ba8f88df4d2b31d682a6b1"
+      sha256 "810598337526040d9272bbbebf64bb7c6f630a8551895e2052375d0965659e1c"
     end
   end
 
@@ -28,12 +28,12 @@ cask "switchbot-cli" do
     on_intel do
       url "https://github.com/HatsuneMiku3939/switchbot-cli/releases/download/v#{version}/switchbot-cli_#{version}_Linux_x86_64.tar.gz",
         verified: "github.com/HatsuneMiku3939/switchbot-cli/"
-      sha256 "e8b27b575319520863060273ef4f4f4ac66dea6e5f7986e5a0358ebe7afc7bb5"
+      sha256 "356fdddcc5a67e40cb1fa17c2622eab02d044e311bf856177884e168d14ab9f7"
     end
     on_arm do
       url "https://github.com/HatsuneMiku3939/switchbot-cli/releases/download/v#{version}/switchbot-cli_#{version}_Linux_arm64.tar.gz",
         verified: "github.com/HatsuneMiku3939/switchbot-cli/"
-      sha256 "6c43a63a446115e5fd4b1a2cb4156e1dbb17cb42fe222fa45387623a4737f023"
+      sha256 "29dda72371e8644ae735be71f27e2fbca305a37fb8c06ceac03edd3b97141246"
     end
   end
 
@@ -41,7 +41,7 @@ cask "switchbot-cli" do
     "This cask installs an unsigned binary."
     ""
     "If macOS blocks execution, remove the quarantine attribute manually:"
-    "  xattr -dr com.apple.quarantine "$(brew --prefix)/Caskroom/switchbot-cli/0.9.0/switchbot-cli""
+    "  xattr -dr com.apple.quarantine "$(brew --prefix)/Caskroom/switchbot-cli/0.9.1/switchbot-cli""
     ""
     "Review the binary and command before bypassing Gatekeeper."
   end
