@@ -15,12 +15,12 @@ cask "jobsd" do
     on_intel do
       url "https://github.com/HatsuneMiku3939/jobsd/releases/download/v#{version}/jobsd_#{version}_Darwin_x86_64.zip",
         verified: "github.com/HatsuneMiku3939/jobsd/"
-      sha256 "d61c1ee029495e6314ea87d43367939d3caa75618108a4477483c9842183c5e1"
+      sha256 "e3c777513407059353a5265f782028af1ba6dcc587b1bc920f30319c3f341dd6"
     end
     on_arm do
       url "https://github.com/HatsuneMiku3939/jobsd/releases/download/v#{version}/jobsd_#{version}_Darwin_arm64.zip",
         verified: "github.com/HatsuneMiku3939/jobsd/"
-      sha256 "5825bdb1d11f0216b5f899924d8dbf3e6ff1d9c88ba86dde83697862bb4b2cc3"
+      sha256 "f1af5444594ae7496c7727abf95b7aacc0e69fbca6493ff0548641e564a6148b"
     end
   end
 
@@ -28,12 +28,12 @@ cask "jobsd" do
     on_intel do
       url "https://github.com/HatsuneMiku3939/jobsd/releases/download/v#{version}/jobsd_#{version}_Linux_x86_64.tar.gz",
         verified: "github.com/HatsuneMiku3939/jobsd/"
-      sha256 "d10baae489c25a647bf190edb3d13c44bb5a2e1bca4d884bae98f931146d5dda"
+      sha256 "3c78dab39d43af7118f829644bc04b3c4caeab56066963fa35dcc1b2dd96225d"
     end
     on_arm do
       url "https://github.com/HatsuneMiku3939/jobsd/releases/download/v#{version}/jobsd_#{version}_Linux_arm64.tar.gz",
         verified: "github.com/HatsuneMiku3939/jobsd/"
-      sha256 "f1f43dcab95ec526579a156073c80b73f86e0b93c8a023b1a7e2120cb5149a0c"
+      sha256 "ea458a1a09d1b531eb5baec0b0664a2cb45480e39970440cd78706fb877fdf7d"
     end
   end
 
